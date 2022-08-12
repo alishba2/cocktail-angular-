@@ -1,5 +1,16 @@
 # CocktailApp
 
+# Functionality
+
+#Get api 
+#component interaction
+#Routing
+#Route Navigation
+#Route parameters
+#Paramaps 
+#Click on any drink to get detail of the drink
+#Search for drinks by name
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
 
 ## Development server
