@@ -1,0 +1,14 @@
+
+  <div  *ngFor="let group of drinks |keyvalue">
+  
+    <div (click)="OnSelect(drink)" class="card" *ngFor="let drink of group.value">
+        <div class="title">
+            {{drink.strDrink}}
+            <!-- {{drink.idDrink}} -->
+        </div>
+    
+        <img src="{{drink.strDrinkThumb}}" height="300px">
+    
+    </div>
+    
+    </div>

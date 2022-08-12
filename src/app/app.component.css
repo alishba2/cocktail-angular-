@@ -1,0 +1,35 @@
+nav{
+   
+    width: 100%;
+    background: #fff;
+    color: #000;
+    opacity: 0.85;
+    border: 2px solid #b0215e;
+    padding: 20px;
+    text-align: center;
+    font-size: 30px;
+    background-color:#b0215e;
+    color: white;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 3px;
+
+    
+}
+.but{
+    margin-top: 20px;
+    text-align: end;
+    text-decoration: none !important;
+    color:#b0215e !important;
+    font-weight: bold;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 25px;
+    
+
+}
+.but:horizontal{
+    color: #b0215e;
+}
+.but:active{
+    text-decoration: none;
+}

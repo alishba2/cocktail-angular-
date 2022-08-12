@@ -1,0 +1,35 @@
+
+
+<div *ngFor="let group of details |keyvalue">
+    <div class="card" *ngFor="let detail of group.value">
+        
+        <div>
+            <div class="title">
+                {{detail.strDrink}}
+            </div>
+            <img src="{{detail.strDrinkThumb}}" height="300px">
+        </div>
+        <div  class="card2">
+            <div class="card3">
+               <div>
+                <span style="font-weight: bold;">Category:</span> {{detail.strCategory}}
+               </div>
+                <div>
+                    <span  style="font-weight: bold;" >Type:</span>
+                    {{detail.strAlcoholic}}
+                </div>
+               
+            </div>
+           <hr>
+            <div class="Ingredients"><span class="ing">Ingredients</span>
+                <span class="details">{{detail.strIngredient1}}</span>
+                <span class="details">{{detail.strIngredient2}}</span>
+                <span class="details">{{detail.strIngredient3}}</span>
+            </div>
+           
+        </div>
+    
+     
+    </div>
+</div>
+

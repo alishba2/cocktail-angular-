@@ -1,0 +1,15 @@
+
+<input type="text" name="Name" [(ngModel)]="Name">
+<button (click)="getcocktails()"> Search</button>
+<div *ngFor="let group of cocktails |keyvalue">
+
+<div class="card" *ngFor="let cocktail of group.value">
+    <div class="title">
+        {{cocktail.strDrink}}
+    </div>
+
+    <img src="{{cocktail.strDrinkThumb}}" height="300px">
+
+</div>
+
+</div>

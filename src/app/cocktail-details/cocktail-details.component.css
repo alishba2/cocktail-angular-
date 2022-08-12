@@ -1,0 +1,49 @@
+.card{
+
+ height: 420px;
+ position: relative;
+ padding: 20px;
+ box-sizing: border-box;
+ display: flex;
+ /* align-items: flex-; */
+ text-decoration: none;
+ border: 4px solid #b0215e;
+ margin-top: 120px;
+ padding-top: 30px;
+ font-family: 'Fjalla One', sans-serif;
+ 
+
+}
+.title{
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: bold;
+    display: flex;
+    margin-bottom: 20px;
+  
+
+    /* margin-left: 20px; */
+    margin-right: 20px;
+    /* margin-bottom: 20px; */
+   
+}
+.card2{
+    margin-left: 60px;
+}
+
+.card3{
+    font-size: 30px;
+    margin-top: 30px;
+}
+.details {
+    margin-top: 10px;
+    display: block;
+}
+.Ingredients{   
+    margin-top: 20px;
+    font-size: 20px;
+    
+}
+.ing{
+   color: #b0215e;
+}
